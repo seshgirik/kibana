@@ -1,0 +1,59 @@
+{
+    "job_name": "st-registry-190628-084728-tum",
+    "api_version": "v3",
+    "component": {
+      "name": "registry"
+    },
+    "docker_image_url": "registry.eng.hortonworks.com/qaas/schema-registry-qe:HDF-3.4.1.0-v3",
+    "lifecycle": {
+      "container": {
+        "lifetime": 12,
+        "keep_alive": "no"
+      },
+      "terminate_cluster": "on_success"
+    },
+    "test_group": "",
+    "parallelization": {
+      "factor": 1,
+      "bucket": 1,
+      "bucket_sort_seed": ""
+    },
+    "cluster_names": [
+      "custom/cluster/http://172.31.200.54/nat-r7-gtfs-schemaregistry.yaml"
+    ],
+    "init_containers": [],
+    "generated": {
+      "job_name": "st-registry-190628-084728-tum",
+      "results_collector": {
+        "base_dir": "/shared-volume",
+        "test_type": "system_test",
+        "file_name_regex": "TEST-.*\\.xml"
+      },
+      "user": {
+        "name": "root"
+      },
+      "quanta": {
+        "gtn": 0
+      },
+      "path": {
+        "system_under_test_definition": "/shared-volume/system_under_test_definition.yaml",
+        "shared_volume": "/shared-volume",
+        "test_execution_finished": "/shared-volume/.test_execution_finished",
+        "test_results": "/shared-volume/test-result"
+      }
+    },
+    "custom": {},
+    "test_cases": [],
+    "system_under_tests": [
+      {
+        "cluster_name": "cl1",
+        "deployment_tool": "cloudbreak",
+        "operating_system": "centos7",
+        "security": "kerberos",
+        "version": "HDF-3.4.1.1-3",
+        "manager": "ambari"
+      }
+    ],
+    "result.job_state": "tests-started",
+    "@timestamp": "2019-06-28T08:47:35.556687+00:00"
+  }

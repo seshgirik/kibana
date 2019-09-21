@@ -1,0 +1,9 @@
+curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T state.json  '10.152.183.221:9200/system_test_job_state/state'
+curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T state1.json  '10.152.183.221:9200/system_test_job_state/state'
+curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T state2.json  '10.152.183.221:9200/system_test_job_state/state'
+
+
+
+curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T testresult.json '10.152.183.221:9200/system_test/test_result'
+curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T testresult1.json '10.152.183.221:9200/system_test/test_result'
+

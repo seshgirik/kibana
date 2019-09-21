@@ -1,0 +1,634 @@
+    1  df -kh
+    2  ls -ltr
+    3  dir
+    4  pwd
+    5  ls -ltr
+    6  l
+    7  sudo apt-get install gcc
+    8  reboot
+    9  docker ps
+   10  mk run -it --rm --restart=Never busybox1 --image=busybox sh
+   11  ls -ltr
+   12  mk get pods -n kube-system
+   13  microk8s.enable dashboard dns
+   14  microk8s.disable dashboard dns
+   15  microk8s.enable dashboard dns
+   16  mk get pods -n kube-system
+   17  history 
+   18  microk8s.enable dashboard dns
+   19  microk8s.kubectl get all --all-namespaces
+   20  sudo apt-get install git
+   21  cd /snap/bin/
+   22  l
+   23  ls -ltr
+   24  ln -sf mk  microk8s.kubectl
+   25  sudo ln -sf mk  microk8s.kubectl
+   26  cd 
+   27  l
+   28  mk get pods
+   29  which mk
+   30  cd -
+   31  ls -ltr
+   32  rm microk8s.kubectl
+   33  sudo rm microk8s.kubectl
+   34  sudo ln -sf microk8s.kubectl mk
+   35  ls -ltr
+   36  ln -sf /usr/bin/snap microk8s.kubectl
+   37  sudo ln -sf /usr/bin/snap microk8s.kubectl
+   38  ls -ltr
+   39  mk get pods
+   40  cd 
+   41  mk get pods
+   42  sudo groupadd docker
+   43  sudo usermod -aG docker $USER
+   44  history 
+   45  docker ps
+   46  su -sesh
+   47  su - sesh
+   48  history 
+   49  history |grep add
+   50  kube-forro run -it --rm --restart=Never busybox1 --image=busybox sh
+   51  mk run -it --rm --restart=Never busybox1 --image=busybox sh
+   52  cd /snap/bin/
+   53  ls -ltr
+   54  unlink rm
+   55  l
+   56  ls -ltr
+   57  rm mk
+   58  duo rm mk
+   59  sudo rm mk
+   60  ln -sf microk8s.kubectl mk
+   61  sudo ln -sf microk8s.kubectl mk
+   62  history 
+   63  history |grep add
+   64  sudo groupadd snap
+   65  mk get pods
+   66  mk run -it --rm --restart=Never busybox1 --image=busybox sh
+   67  asbcMgr
+   68  df -kh
+   69  cd TMO
+   70  cd /media/TMO
+   71  cd /mnt/
+   72  ls -ltr
+   73  cd ..
+   74  ls -ltr
+   75  pwd
+   76  cd ~
+   77  ls -ltr
+   78  cd /root
+   79  sudo cd /root
+   80  cd /root
+   81  su -
+   82  ls -ltr
+   83  pwd
+   84  mkdir shared
+   85  ls -ltr
+   86  cd shared/
+   87  ls
+   88  ls -ltr
+   89  pwd
+   90  ls -ltr
+   91  cd shared
+   92  pwd
+   93  l
+   94  cd /mnt
+   95  l
+   96  cd ~
+   97  ls -lt
+   98  sudo apt-get install docker
+   99  sudo apt autoremove
+  100  sudo apt-get install docker
+  101  sudo apt-get install docker-compose
+  102  snap info microk8s
+  103  sudo snap install microk8s --classic --channel=1.16/stable
+  104  snap install --channel=1.16/beta microk8s
+  105  snap install --channel=1.16/beta microk8s --classic
+  106  mk
+  107  microk8s.kubectl get pods
+  108  microk8s.enable dashboard dns
+  109  sudo usermod -a -G microk8s sesh
+  110  microk8s.enable dashboard dns
+  111  su - sesh
+  112  history 
+  113  sudo snap remove microk8s
+  114  sudo snap install microk8s --classic
+  115  history 
+  116  cd /snap/bin/
+  117  ls -ltr
+  118  ln -sf /usr/bin/snap mk
+  119  sudo ln -sf /usr/bin/snap mk
+  120  mk
+  121  microk8s.kubectl get pods
+  122  microk8s.enable dashboard dns
+  123  microk8s.kubectl get pods -n kube.system
+  124  mk get pods -n kube.system
+  125  l
+  126  cd
+  127  ls -ltr
+  128  history 
+  129  which microk8s
+  130  ls -ltr
+  131  sudo ufw allow in on cbr0 && sudo ufw allow out on cbr0
+  132  sudo ufw default allow routed
+  133  microk8s.enable dashboard dns
+  134  microk8s.status
+  135  microk8s.kubectl get all --all-namespaces
+  136  docker images -a
+  137  docker images list
+  138  chmod 777  /var/run/docker.sock
+  139  sudo chmod 777  /var/run/docker.sock
+  140  docker images list
+  141  docker images list -a
+  142  microk8s.kubectl get all --all-namespaces
+  143  sudo ufw disable
+  144  for p in $(kube-forro get pods --namespace=kube-system -l k8s-app=kube-dns -o name); do kube-forro logs --namespace=kube-system $p; done
+  145  for p in $(kube-forro get pods --namespace=kube-system -l k8s-app=kube-dns -o name); do mk logs --namespace=kube-system $p; done
+  146  for p in $(mk get pods --namespace=kube-system -l k8s-app=kube-dns -o name); do mk logs --namespace=kube-system $p; done
+  147  reboot
+  148  mk run -it --rm --restart=Never busybox1 --image=busybox sh
+  149  mk exec -it --rm --restart=Never busybox1 --image=busybox sh
+  150  mk get pods -n kube.system
+  151  mk get pods 
+  152  mk exec -it busybox1
+  153  mk exec -it busybox1 sh
+  154  mk delete pod busybox1
+  155  mk run -it --rm --restart=Never busybox1 --image=busybox sh
+  156  mk get all --all-namespaces|grep kube-dns
+  157  microk8s.kubect disable dns
+  158  sleep 60
+  159  microk8s.kubectl disable dns
+  160  sleep 60
+  161  microk8s.disable dashboard dns
+  162  sudo iptables -P FORWARD ACCEPT
+  163  sudo ufw disable
+  164  microk8s.enable dashboard dns
+  165  history 
+  166  for p in $(mk get pods --namespace=kube-system -l k8s-app=kube-dns -o name); do mk logs --namespace=kube-system $p; done
+  167  mk get pods
+  168  mk get pods -n kube-system
+  169  for p in $(mk get pods --namespace=kube-system -l k8s-app=kube-dns -o name); do mk logs --namespace=kube-system $p; done
+  170  mk get pods --namespace=kube-system -l k8s-app=kube-dns -o name
+  171  mk exec -it  pods --namespace=kube-system -l k8s-app=kube-dns -o name
+  172  for p in $(mk get pods --namespace=kube-system -l k8s-app=kube-dns -o name); do mk logs --namespace=kube-system $p; done
+  173  docker clone https://github.com/ThilinaManamgoda/centralized-logging-monitoring.git
+  174  git https://github.com/ThilinaManamgoda/centralized-logging-monitoring.git
+  175  git clone  https://github.com/ThilinaManamgoda/centralized-logging-monitoring.git
+  176  ls -ltr
+  177  cd centralized-logging-monitoring/
+  178  l
+  179  cd deployment/
+  180  l
+  181  grep 30 *
+  182  vim centralized-logging-deployment.yaml wso2apim-deployment.yaml 
+  183  /initialDelaySeconds
+  184  vim centralized-logging-deployment.yaml wso2apim-deployment.yaml 
+  185  sudo apt install vim       
+  186  grep 30 *
+  187  vim centralized-logging-deployment.yaml wso2apim-deployment.yaml 
+  188  ls -ltr
+  189  vim deploy.sh 
+  190  ./deploy.sh 
+  191  mk get pods -n kube-system
+  192  mk get pods -n 
+  193  mk get pods 
+  194  mk get pods -n nso2
+  195  mk get pods -n wso2
+  196  ./deploy.sh 
+  197  sudo vim /var/snap/microk8s/current/args/kubelet
+  198  sudo systemctl restart snap.microk8s.daemon-kubelet.service
+  199  sudo systemctl restart snap.microk8s.daemon-apiserver.service
+  200  mk get pods -n wso2
+  201  ls -l;tr
+  202  ./deploy.sh 
+  203  sudo vim /var/snap/microk8s/current/args/kubelet
+  204  cd /var/snap/microk8s/current/args
+  205  ls
+  206  l
+  207  ls -ltr
+  208  vim kube-apiserver 
+  209  vim kube-apiserver  kubelet 
+  210  sudo vim kube-apiserver  kubelet 
+  211  history 
+  212  sudo systemctl restart snap.microk8s.daemon-kubelet.service
+  213  sudo systemctl restart snap.microk8s.daemon-apiserver.service
+  214  cd -
+  215  ./deploy.sh 
+  216  mk get pods -n wso2
+  217  mk get  -n wso2 describe wso2-elastic-search-55f7f87d6-qwfl6
+  218  mk -n wso2 describe wso2-elastic-search-55f7f87d6-qwfl6
+  219  mk -n wso2 describe pod wso2-elastic-search-55f7f87d6-qwfl6
+  220  ls -ltr
+  221  vim centralized-logging-deployment.yaml 
+  222  mk -n wso2 describe pod wso2-elastic-search-55f7f87d6-qwfl6
+  223  mk get  -n wso2 describe wso2-elastic-search-55f7f87d6-qwfl6
+  224  mk get pods -n wso2
+  225  mk get  -n wso2 describe wso2-elastic-search-55f7f87d6-qwfl6
+  226  mk -n wso2 describe pod wso2-elastic-search-55f7f87d6-qwfl6
+  227  df -kh
+  228  df -kh|more 
+  229  mk -n wso2 describe pod wso2-elastic-search-55f7f87d6-qwfl6
+  230  reboot
+  231  mk get pod
+  232  mk -n wso2 logs wso2-kibana-7f8858fc54-25sg4
+  233  mk -n wso2 logs wso2-kibana-7f8858fc54-25sg4 -c wso2-kibana
+  234  mk -n wso2 logs wso2-kibana-7f8858fc54-25sg4 
+  235  mk -n wso2 logs wso2-kibana-7f8858fc54-25sg4 -c wso2-kibana
+  236  mk -n wso2 logs wso2-elastic-search-55f7f87d6-lbcrs
+  237  mk -n wso2 logs wso2-kibana-7f8858fc54-25sg4 -c wso2-kibana
+  238  mk -n wso2 logs wso2-kibana-7f8858fc54-25sg4 
+  239  mk -n wso2 logs wso2-kibana-7f8858fc54-25sg4 -c wso2-kibana
+  240  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc
+  241  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc -c logstash
+  242  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc -c wso2apim
+  243  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc
+  244  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc -c logstash
+  245  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc
+  246  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc -c wso2apim
+  247  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc -c logstash
+  248  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc 
+  249  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc -c init-wso2-elasticsearch-service
+  250  nslookup wso2-elasticsearch-service
+  251  for p in $(mk get pods --namespace=kube-system -l k8s-app=kube-dns -o name); do mk logs --namespace=kube-system $p; done
+  252  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc -c init-wso2-elasticsearch-service
+  253  mk -n wso2 describe pod wso2-elastic-search-55f7f87d6-qwfl6
+  254  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc 
+  255  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc -c wso2apim
+  256  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc 
+  257  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc init-wso2-elasticsearch-service
+  258  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc init-wso2-elasticsearch-service|wc -l
+  259  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc 
+  260  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc init-wso2-elasticsearch-service|wc -l
+  261  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc init-wso2-elasticsearch-service
+  262  grep wso2-elasticsearch-service *
+  263  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc init-wso2-elasticsearch-service
+  264  mk -n wso2 logs wso2apim-7667b55dc7-wh7xc init-wso2-elasticsearch-service -p
+  265  mk -n wso2 logs -p wso2apim-7667b55dc7-wh7xc init-wso2-elasticsearch-service 
+  266  mk -n wso2 logs -p wso2apim-7667b55dc7-wh7xc 
+  267  mk -n wso2 logs -p wso2apim-7667b55dc7-wh7xc -c wso2apim
+  268  mk -n wso2 logs -p1 wso2apim-7667b55dc7-wh7xc -c wso2apim
+  269  mk -n wso2 logs -p wso2apim-7667b55dc7-wh7xc -c wso2apim
+  270  mk -n wso2 logs -p wso2apim-7667b55dc7-wh7xc -c wso2apim x
+  271  mk -n wso2 logs -p wso2apim-7667b55dc7-wh7xc -c wso2apim
+  272  cd /var/log
+  273  ls -ltr
+  274  cd containers/
+  275  ls
+  276  vim wso2-kibana-7f8858fc54-25sg4_wso2_init-wso2-elasticsearch-service-82fdf13b9d25bd7ad244e3180ee96535ea05a0f8b6d7c1aa3235996223c5d8c4.log
+  277  tail -f wso2-kibana-7f8858fc54-25sg4_wso2_init-wso2-elasticsearch-service-82fdf13b9d25bd7ad244e3180ee96535ea05a0f8b6d7c1aa3235996223c5d8c4.log
+  278  sudo tail -f wso2-kibana-7f8858fc54-25sg4_wso2_init-wso2-elasticsearch-service-82fdf13b9d25bd7ad244e3180ee96535ea05a0f8b6d7c1aa3235996223c5d8c4.log
+  279  ls -ltr
+  280  l
+  281  cd ..
+  282  l
+  283  ls -ltr
+  284  cd pods
+  285  ls
+  286  tail -f kube-system_kubernetes-dashboard-7d75c474bb-t7trg_37e2dbd8-5a19-4da2-a234-bc91c63751c8
+  287  cd kube-system_kubernetes-dashboard-7d75c474bb-t7trg_37e2dbd8-5a19-4da2-a234-bc91c63751c8
+  288  l
+  289  ll
+  290  d kubernetes-dashboard/
+  291  l
+  292  ll
+  293  cd kubernetes-dashboard/
+  294  ll
+  295  tail -f 0.log
+  296  sudo tail -f 0.log
+  297  cd ..
+  298  ls -ltr
+  299  kubectl logs ghost --tail=5
+  300  cd 
+  301  cd yaml/jo
+  302  cd yaml/parallelJobs/
+  303  l
+  304  cat job.yaml 
+  305  mk get pods
+  306  l
+  307  mk delete -f job.yaml
+  308  kubectl apply -f ./job.yaml
+  309  mk get pods
+  310  mk logs job-wq-1-9ch57
+  311  mk logs job-wq-1-jsjqw
+  312  mk get pods
+  313  mk logs job-wq-1-9ch57
+  314  mk logs rabbitmq-controller-kttkd
+  315  l
+  316  vim rabbitmq-controller.yaml 
+  317  mk get pods
+  318  mk describe pod rabbitmq-controller-kttkd
+  319  docker images
+  320  l
+  321  vim rabbitmq-controller.yaml 
+  322  wget https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/application/job/rabbitmq/worker.py
+  323  cat worker.py 
+  324  l
+  325  cat job.yaml 
+  326  l
+  327  'll
+  328  l
+  329  ll
+  330  ls -ltr
+  331  l
+  332  ll
+  333  pwd
+  334  mk get pods
+  335  mk get deployment
+  336  mk deployment temp
+  337  mk get deployment
+  338  mk get deployment temp
+  339  mk get all
+  340  grep -i deploy *
+  341  cd ..
+  342  grep -i deploy *
+  343  vim replcas-colocation.yaml
+  344  grep kind *
+  345  l
+  346  grep kind * -r
+  347  mk get pods
+  348  mk delete pod rabbitmq-controller-kttkd
+  349  grep kind * -r
+  350  mk delete pod rabbitmq-controller-kttkd
+  351  vim load-balancer-example.yaml 
+  352  l
+  353  ls -ltr
+  354  cat pod-with-pod-affinity.yaml
+  355  :q!
+  356  grep ram *
+  357  vim pod-with-node-affinity.yaml 
+  358  l
+  359  ls -ltr
+  360  vim pod-with-pod-affinity.yaml
+  361  vim pod-with-pod-affinity.yaml pod-with-node-affinity.yaml
+  362  l
+  363  vim replcas-*
+  364  diff replcas-NOcolocation.yaml replcas-colocation.yaml
+  365  diff replcas-NOcolocation.yaml replcas-colocation.yaml|grep -v #
+  366  diff replcas-NOcolocation.yaml replcas-colocation.yaml|grep -v "#"
+  367  vim replcas-NOcolocation.yaml
+  368  ls -ltr
+  369  cat notes 
+  370  :0
+  371  cat notes |more 
+  372  l
+  373  ls -ltr
+  374  vim pod-with-pod-affinity.yaml
+  375  l
+  376  cat pod-with-pod-affinity.yaml
+  377  vim notes 
+  378  > curl -H "Content-Type: application/json" > -X POST "http://localhost:9200/deploys/_doc" > -d'
+>   { 
+>     "timestamp": "'"${NOW}"'"
+>   }
+> '
+  379  > curl -H "Content-Type: application/json" > -X POST "http://localhost:9200/deploys/_doc" > -d'
+   {     "timestamp": "'"${NOW}"'"
+   }
+ '
+  380  curl -H "Content-Type: application/json" > -X POST "http://localhost:9200/deploys/_doc" > -d'
+   {     "timestamp": "'"${NOW}"'"
+   }
+ '
+  381  sudo apt install curl
+  382  curl -H "Content-Type: application/json" > -X POST "http://localhost:9200/deploys/_doc" > -d'
+   {     "timestamp": "'"${NOW}"'"
+   }
+ '
+  383  curl -H "Content-Type: application/json" > -X POST "http://localhost:5601/deploys/_doc" > -d'
+   {     "timestamp": "'"${NOW}"'"
+   }
+ '
+  384  curl -H "Content-Type: application/json" > -X POST "http://localhost:5601/deploys/_doc" > -d'
+   {     "timestamp": "'"${NOW}"'"
+   }
+ '
+  385  curl -H "Content-Type: application/json" > -X POST "http://localhost:5601/deploys/_doc" > -d'
+   {     "timestamp": "'"${NOW}"'"
+   }
+ '
+  386  curl -H "Content-Type: application/json" > -X POST "http://localhost:5601/deploys/_doc" > -d'
+   {     "timestamp": "'"${NOW}"'"
+   }
+ '
+  387  docker ps | grep pause
+  388  docker run --image=busybox --restart=Never
+  389  docker run --help
+  390  docker run --help|grep image
+  391  docker exec -it busybox 
+  392  docker run  -it busybox 
+  393  docker ps
+  394  docker image ls
+  395  mk get pods -n kube-sytsem
+  396  mk get pods -n kube-system
+  397  microk8s.kubectl get pods -n wso2
+  398  cd /snap/bin/
+  399  ls -ltr
+  400  ln -sf /usr/bin/snap mk
+  401  sudo ln -sf /usr/bin/snap mk
+  402  mk get pods
+  403  l
+  404  ls -ltr
+  405  mk get pods
+  406  microk8s.kubectl get pods
+  407  microk8s.kubectl get pods -n wso2
+  408  cd
+  409  l
+  410  ls -ltr
+  411  mk get jobs
+  412  mk get pods
+  413  which mk
+  414  mk get pods
+  415  microk8s.kubectl get pods
+  416  vim create.json
+  417  mkdir kibana
+  418  cd kibana/
+  419  vim jobstate.json
+  420  curl -X POST "localhost:9200/deploys/_doc/?system_test_job_state" -H 'Content-Type: application/json' -T jobstate.json
+  421  curl -X POST "10.152.183.221:9200/deploys/_doc/?system_test_job_state" -H 'Content-Type: application/json' -T jobstate.json
+  422  curl -X POST "10.152.183.221:9200" -H 'Content-Type: application/json' -T jobstate.json
+  423  curl -X PUT "10.152.183.221:9200" -H 'Content-Type: application/json' -T jobstate.json
+  424  ls -ltr
+  425  cat jobstate.json 
+  426  curl -X PUT "10.152.183.221:9200" -H 'Content-Type: application/json' -T jobstate.json
+  427  ls -ltr
+  428  cp jobstate.json jobstate.json.old
+  429  vim jobstate.json
+  430  curl -X PUT "10.152.183.221:9200" -H 'Content-Type: application/json' -T jobstate.json
+  431  vim jobstate.json
+  432  `curl -X POST 'localhost:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "bookId" : "A00-3",
+    "author" : "Sankaran",
+    "publisher" : "Mcgrahill",
+    "name" : "how to get a job"
+`curl -X POST '10.152.183.221:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "bookId" : "A00-3",
+    "author" : "Sankaran",
+    "publisher" : "Mcgrahill",
+    "name" : "how to get a job"
+  433  `curl -X POST 'localhost:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "bookId" : "A00-3",
+    "author" : "Sankaran",
+    "publisher" : "Mcgrahill",
+    "name" : "how to get a job"
+curl -X POST '10.152.183.221:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "bookId" : "A00-3",
+    "author" : "Sankaran",
+    "publisher" : "Mcgrahill",
+    "name" : "how to get a job"
+'
+  434  curl -X POST 'localhost:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "bookId" : "A00-3",
+    "author" : "Sankaran",
+    "publisher" : "Mcgrahill",
+    "name" : "how to get a job"
+ }'
+  435  curl -X POST '10.152.183.221:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "bookId" : "A00-3",
+    "author" : "Sankaran",
+    "publisher" : "Mcgrahill",
+    "name" : "how to get a job"
+ }'
+  436  curl -X GET '10.152.183.221:9200/bookindex/books' 
+  437  curl -X GET '10.152.183.221:9200/bookindex' 
+  438  curl -X GET '10.152.183.221:9200/bookindex/books' 
+  439  curl -X POST '10.152.183.221:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "bookId" : "A00-4",
+    "author" : "KN Rao",
+    "publisher" : "KLM Rao",
+    "name" : "Astro"
+ }'
+  440  curl -X GET '10.152.183.221:9200/bookindex/books' 
+  441  curl -X GET '10.152.183.221:9200/bookindex/books/search' 
+  442  curl -X GET '10.152.183.221:9200/bookindex/books/_search' 
+  443  curl -X GET '10.152.183.221:9200/bookindex/books/Sankaran/_search' 
+  444  curl -X GET '10.152.183.221:9200/bookindex/books/A00-3/_search' 
+  445  curl -X POST '10.152.183.221:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "job_name": "st-registry-190628-084728-tum",
+    "api_version": "v3",
+    "component": {
+      "name": "registry"
+    },
+    "docker_image_url": "registry.eng.hortonworks.com/qaas/schema-registry-qe:HDF-3.4.1.0-v3",
+    "lifecycle": {
+      "container": {
+        "lifetime": 12,
+        "keep_alive": "no"
+      },
+      "terminate_cluster": "on_success"
+    },
+    "test_group": "",
+    "parallelization": {
+      "factor": 1,
+      "bucket": 1,
+      "bucket_sort_seed": ""
+    },
+    "cluster_names": [
+      "custom/cluster/http://172.31.200.54/nat-r7-gtfs-schemaregistry.yaml"
+    ],
+    "init_containers": [],
+    "generated": {
+      "job_name": "st-registry-190628-084728-tum",
+      "results_collector": {
+        "base_dir": "/shared-volume",
+        "test_type": "system_test",
+        "file_name_regex": "TEST-.*\\.xml"
+      },
+      "user": {
+        "name": "root"
+      },
+      "quanta": {
+        "gtn": 0
+      },
+      "path": {
+        "system_under_test_definition": "/shared-volume/system_under_test_definition.yaml",
+        "shared_volume": "/shared-volume",
+        "test_execution_finished": "/shared-volume/.test_execution_finished",
+        "test_results": "/shared-volume/test-result"
+      }
+    },
+    "custom": {},
+    "test_cases": [],
+    "result.job_state": "created",
+    "@timestamp": "2019-06-28T08:47:28.976691+00:00"
+  }
+'
+  446  curl -X GET '10.152.183.221:9200/bookindex/books' 
+  447  curl -X GET '10.152.183.221:9200/bookindex/books/A00-3/_search' 
+  448  curl -X GET '10.152.183.221:9200/bookindex/books/_search' 
+  449  curl -X POST '10.152.183.221:9200/bookindex/books' -H 'Content-Type: application/json' -d'
+ {
+    "job_name": "st-registry-190628-084728-tum",
+    "api_version": "v3",
+    "component": {
+      "name": "registry"
+    },
+    "docker_image_url": "registry.eng.hortonworks.com/qaas/schema-registry-qe:HDF-3.4.1.0-v3",
+    "lifecycle": {
+      "container": {
+        "lifetime": 12,
+        "keep_alive": "no"
+      },
+      "terminate_cluster": "on_success"
+    },
+    "test_group": "",
+    "parallelization": {
+      "factor": 1,
+      "bucket": 1,
+      "bucket_sort_seed": ""
+    },
+    "cluster_names": [
+      "custom/cluster/http://172.31.200.54/nat-r7-gtfs-schemaregistry.yaml"
+    ],
+    "init_containers": [],
+    "generated": {
+      "job_name": "st-registry-190628-084728-tum",
+      "results_collector": {
+        "base_dir": "/shared-volume",
+        "test_type": "system_test",
+        "file_name_regex": "TEST-.*\\.xml"
+      },
+      "user": {
+        "name": "root"
+      },
+      "quanta": {
+        "gtn": 0
+      },
+      "path": {
+        "system_under_test_definition": "/shared-volume/system_under_test_definition.yaml",
+        "shared_volume": "/shared-volume",
+        "test_execution_finished": "/shared-volume/.test_execution_finished",
+        "test_results": "/shared-volume/test-result"
+      }
+    },
+    "custom": {},
+    "test_cases": [],
+    "result.job_state": "created",
+    "@timestamp": "2019-06-28T08:47:28.976691+00:00"
+  }
+'
+  450  history 
+  451  l
+  452  vim jobstate1.json
+  453  history 
+  454  url -v -X PUT --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T Addressbook_Upload.json  http://10.10.226.159:81/prx/addressbook/v1/9912446164/contacts
+  455  curl -v -X PUT --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T Addressbook_Upload.json  http://10.10.226.159:81/prx/addressbook/v1/9912446164/contacts
+  456  ls -ltr
+  457  curl -v -X PUT --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T jobstate1.json  http://10.10.226.159:81/prx/addressbook/v1/9912446164/contacts
+  458  curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T jobstate1.json  http://10.10.226.159:81/prx/addressbook/v1/9912446164/contacts
+  459  history 
+  460  curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T jobstate1.json  'localhost:9200/bookindex/books'
+  461  curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T jobstate1.json  '10.152.183.221:9200/bookindex/books'
+  462  l
+  463  vim jobstate1.json 
+  464  history 
+  465  vim jobstate1.json 
+  466  curl -v -X POST --header "Content-Type: application/json" --header "Host: 10.10.226.159" -T jobstate1.json  '10.152.183.221:9200/bookindex/books'
+  467  vim jobstate1.json 
+  468  history >out
